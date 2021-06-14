@@ -7,7 +7,9 @@ public class Shuffler {
   private final Random rng;
 
   public Shuffler(Random rng) {
+
     this.rng = rng;
+
   }
 
   public void shuffle(int[] data) {
